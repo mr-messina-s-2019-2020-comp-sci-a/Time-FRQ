@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Time
+comment0.text=\r\n\ Objects\ of\ the\ Time\ class\ hold\ a\ time\ value\ for\r\n\ a\ European-style\ 24\ hour\ clock.\r\n\ The\ value\ consists\ of\ hours,\ minutes\ and\ seconds.\r\n\ The\ range\ of\ the\ value\ is\ 00\:00\:00\ (midnight)\r\n\ to\ 23\:59\:59\ (one\ *\ second\ before\ midnight).\r\n
+comment1.params=
+comment1.target=Time()
+comment1.text=\r\n\ Creates\ a\ new\ Time\ object\ set\ to\ 00\:00\:00.\r\n\ Do\ not\ change\ this\ constructor.\r\n
+comment2.params=
+comment2.target=void\ tick()
+comment2.text=\r\n\ Add\ one\ second\ to\ the\ current\ time.\r\n\ When\ the\ seconds\ value\ reaches\ 60,\ it\ rolls\ over\ to\ zero.\r\n\ When\ the\ seconds\ roll\ over\ to\ zero,\ the\ minutes\ advance.\r\n\ So\ 00\:00\:59\ rolls\ over\ to\ 00\:01\:00.\r\n\ When\ the\ minutes\ reach\ 60,\ they\ roll\ over\ and\ the\ hours\ advance.\r\n\ So\ 00\:59\:59\ rolls\ over\ to\ 01\:00\:00.\r\n\ When\ the\ hours\ reach\ 24,\ they\ roll\ over\ to\ zero.\r\n\ So\ 23\:59\:59\ rolls\ over\ to\ 00\:00\:00.\r\n
+comment3.params=h\ m\ s
+comment3.target=Time(int,\ int,\ int)
+comment3.text=\r\n\ Constructor\ for\ objects\ of\ class\ Time.\r\n\ Creates\ a\ new\ Time\ object\ set\ to\ h\:m\:s.\r\n\ Assumes,\ without\ checking,\ that\ the\ parameter\ values\ are\r\n\ within\ bounds.\r\n\ For\ this\ task,\ you\ don't\ need\ to\ worry\ about\ invalid\ parameter\ values.\r\n\ Do\ not\ change\ this\ constructor.\r\n
+comment4.params=offset
+comment4.target=void\ add(Time)
+comment4.text=\r\n\ Add\ an\ offset\ to\ this\ Time.\r\n\ Rolls\ over\ the\ hours,\ minutes\ and\ seconds\ fields\ when\ needed.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=value
+comment6.target=java.lang.String\ pad(int)
+comment6.text=\r\n\ Returns\ a\ string\ representing\ the\ argument\ value,\ adding\ a\ leading\r\n\ "0"\ if\ needed\ to\ make\ it\ at\ least\ two\ digits\ long.\r\n\ Do\ not\ change\ this.\r\n
+numComments=7
